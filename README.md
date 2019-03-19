@@ -1,6 +1,8 @@
 # Light-Ad-Mediation
 
-#### NOTE: This project is built with Unity 2018.3.4, if you face any problem try upgrading to Unity 2018.3 or above. This project has only been tested with Internal Build System. 
+#### NOTE: This project is built with Unity 2018.3.4, if you face any problem try upgrading to Unity 2018.3 or above. Make sure you have set your build target to Android or iOS before importing. This project has only been tested with Internal Build System. Make sure you have added the apropriate keys before trying to show ads, keys that are already there are official testing keys. Read the relevant Network's docs for more info on how to show test ads. 
+
+##### Update: All the official SDKs for the networks in use (UnityAds, Admob, Ironsource) are already included and tested. I will be updating the SDKs when necessary. 
 
 ## About
 This is simple and easy to extend Ad Mediation for mobile platforms (Android and iOS only) currently it supports Unity Ads, Admob and Ironsource only and you can only display following ad type:
